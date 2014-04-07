@@ -1,0 +1,12 @@
+name 'objectiflibre-ha_puppet'
+version '0.0.1'
+source 'git://github.com/ObjectifLibre/puppet-ha_puppet.git'
+author 'Guillaume Espanel'
+description 'Module for deploying new Puppetmasters'
+summary 'Module for deploying new Puppetmasters'
+license 'Apache'
+project_page 'https://github.com/ObjectifLibre/puppet-ha_puppet'
+## Add dependencies, if any:
+dependency 'zack/r10k', '>= 1.0.2'
+dependency 'puppetlabs/haproxy', '>= 0.4.1'
+dependency 'objectiflibre/puppet', '>= 0.0.21'
